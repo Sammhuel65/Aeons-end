@@ -1,0 +1,16 @@
+aeons_end/
+│
+├── main.py              # Point d'entrée du programme
+├── game.py              # Logique principale du jeu (règles, boucle de jeu)
+├── player.py            # Classe et méthodes pour les joueurs
+├── nemesis.py           # Classe et méthodes pour le Némésis
+├── cards.py             # Définition des classes de cartes (gems, sorts, etc.)
+├── utils.py             # Fonctions utilitaires (affichage, mélanges, etc.)
+├── tests/               # Dossier contenant les tests unitaires
+│   ├── test_player.py   # Tests pour les joueurs
+│   ├── test_nemesis.py  # Tests pour le Némésis
+│   └── test_game.py     # Tests pour la logique du jeu
+├── data/                # Données statiques (JSON, CSV, etc.)
+│   ├── cards.json       # Liste des cartes (nom, coût, effet, etc.)
+│   └── nemesis.json     # Informations sur les Némésis
+└── README.md            # Documentation du projet
